@@ -1,0 +1,194 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Artikel Kesehatan</title>
+
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #f2f8f6;
+            color: #333;
+            line-height: 1.7;
+        }
+
+        header {
+            background: #20a67a;
+            color: white;
+            text-align: center;
+            padding: 30px 20px;
+        }
+
+        header h1 {
+            font-size: 32px;
+            margin-bottom: 5px;
+        }
+
+        nav {
+            background: #168661;
+            text-align: center;
+            padding: 12px;
+        }
+
+        nav a {
+            color: white;
+            text-decoration: none;
+            margin: 0 15px;
+            font-weight: bold;
+        }
+
+        nav a:hover {
+            text-decoration: underline;
+        }
+
+        .container {
+            max-width: 900px;
+            margin: 30px auto;
+            padding: 0 20px;
+        }
+
+        article {
+            background: white;
+            padding: 30px;
+            border-radius: 12px;
+            box-shadow: 0 4px 12px rgba(0,0,0,0.1);
+        }
+
+        article h2 {
+            color: #168661;
+            margin-bottom: 10px;
+        }
+
+        article h3 {
+            color: #20a67a;
+            margin-top: 25px;
+            margin-bottom: 8px;
+        }
+
+        article p {
+            margin-bottom: 15px;
+            text-align: justify;
+        }
+
+        ul {
+            margin-left: 25px;
+            margin-bottom: 15px;
+        }
+
+        li {
+            margin-bottom: 8px;
+        }
+
+        .tips {
+            background: #e3f7ef;
+            border-left: 5px solid #20a67a;
+            padding: 15px;
+            margin-top: 20px;
+            border-radius: 5px;
+        }
+
+        footer {
+            text-align: center;
+            background: #168661;
+            color: white;
+            padding: 20px;
+            margin-top: 30px;
+        }
+    </style>
+</head>
+
+<body>
+
+    <header>
+        <h1>Sehat Itu Penting</h1>
+        <p>Artikel sederhana tentang menjaga kesehatan tubuh</p>
+    </header>
+
+    <nav>
+        <a href="#artikel">Artikel</a>
+        <a href="#tips">Tips Kesehatan</a>
+    </nav>
+
+    <div class="container">
+        <article id="artikel">
+
+            <h2>Pentingnya Menjaga Kesehatan Tubuh</h2>
+
+            <p>
+                Kesehatan merupakan salah satu hal penting dalam kehidupan.
+                Dengan tubuh yang sehat, kita dapat melakukan berbagai aktivitas
+                sehari-hari dengan lebih baik. Oleh karena itu, menjaga kesehatan
+                perlu dilakukan sejak dini.
+            </p>
+
+            <h3>1. Mengonsumsi Makanan Bergizi</h3>
+
+            <p>
+                Makanan bergizi memberikan energi dan nutrisi yang dibutuhkan
+                tubuh. Kita sebaiknya mengonsumsi sayur, buah, protein,
+                serta makanan yang mengandung karbohidrat dan lemak sehat.
+            </p>
+
+            <h3>2. Rajin Berolahraga</h3>
+
+            <p>
+                Olahraga dapat membantu menjaga kebugaran tubuh. Aktivitas
+                seperti berjalan kaki, bersepeda, bermain olahraga, atau
+                melakukan peregangan dapat menjadi pilihan untuk tetap aktif.
+            </p>
+
+            <h3>3. Istirahat yang Cukup</h3>
+
+            <p>
+                Istirahat yang cukup membantu tubuh memulihkan energi setelah
+                melakukan berbagai aktivitas. Tidur yang teratur juga dapat
+                membantu menjaga konsentrasi dan kebugaran.
+            </p>
+
+            <h3>4. Menjaga Kebersihan</h3>
+
+            <p>
+                Menjaga kebersihan tubuh dan lingkungan dapat membantu
+                mengurangi risiko terkena berbagai penyakit. Biasakan mencuci
+                tangan, mandi secara teratur, dan menjaga kebersihan tempat tinggal.
+            </p>
+
+            <div class="tips" id="tips">
+                <h3>Tips Sederhana untuk Hidup Sehat</h3>
+
+                <ul>
+                    <li>Minum air putih yang cukup.</li>
+                    <li>Mengonsumsi makanan bergizi.</li>
+                    <li>Berolahraga secara rutin.</li>
+                    <li>Tidur dan istirahat dengan cukup.</li>
+                    <li>Menjaga kebersihan diri dan lingkungan.</li>
+                    <li>Mengurangi konsumsi makanan yang terlalu banyak gula dan garam.</li>
+                </ul>
+            </div>
+
+            <h3>Kesimpulan</h3>
+
+            <p>
+                Menjaga kesehatan dapat dimulai dari kebiasaan sederhana
+                dalam kehidupan sehari-hari. Dengan menerapkan pola makan
+                yang baik, berolahraga, cukup beristirahat, dan menjaga
+                kebersihan, kita dapat membantu menjaga tubuh tetap sehat
+                dan bugar.
+            </p>
+
+        </article>
+    </div>
+
+    <footer>
+        <p>&copy; 2026 Artikel Kesehatan | Dibuat dengan HTML & CSS</p>
+    </footer>
+
+</body>
+</html>
